@@ -5,18 +5,15 @@ COLUMN_COUNT = 4
 LIGHT_COLOR = 'AAAAAA'
 MEDIUM_COLOR = '888888'
 DARK_COLOR   = '000000'
-FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura"
 
-#puts File.exist?("C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDIUM")
-
-# FONTS = {
-  #'Futura' => {
-   # normal: "C:/User/reube/Fonts/Futura.TTF",
-  #  italic: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Heavy Italic font.ttf",
-  #  bold: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Condensed Extra Bold.otf",
- #   condensed: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\futura medium condensed bt.ttf",
- # }
-#}
+FONTS = {
+  'Futura' => {
+   normal: "Futura.TTF",
+   italic: "Futura Heavy Italic font.ttf",
+   bold: "Futura Condensed Extra Bold.otf",
+   condensed: "futura medium condensed bt.ttf",
+  }
+ }
 PAGE_SIZE = 'LETTER' # Could also do 'A4'
 # Order is top, right, bottom, left
 LEFT_PAGE_MARGINS = [36, 72, 36, 36]
