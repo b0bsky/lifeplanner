@@ -7,6 +7,8 @@ require 'optparse'
 require_relative './config'
 
 def init_pdf
+
+  FONTS = 
   pdf = Prawn::Document.new(margin: RIGHT_PAGE_MARGINS, print_scaling: :none)
   pdf.font_families.update("Futura" => {
     :normal => "C:\Users\reube\Fonts\Futura\Futura.TTF",
