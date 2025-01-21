@@ -11,9 +11,9 @@ def init_pdf
   pdf = Prawn::Document.new(margin: RIGHT_PAGE_MARGINS, print_scaling: :none)
   pdf.font_families.update( "Futura" => {
     :normal => "C:\Users\reube\Fonts\Futura\Futura.TTF",
-    :italic: "C:\Users\reube\Fonts\Futura\Futura Heavy Italic font.ttf",
-    :bold: "C:\Users\reube\Fonts\Futura\Futura Bold font.ttf",
-    :condensed: "C:\Users\reube\Fonts\Futura\futura medium condensed bt.ttf"
+    :italic => "C:\Users\reube\Fonts\Futura\Futura Heavy Italic font.ttf",
+    :bold => "C:\Users\reube\Fonts\Futura\Futura Bold font.ttf",
+    :condensed => "C:\Users\reube\Fonts\Futura\futura medium condensed bt.ttf"
   })
   # pdf.font(FONTS.keys.first)
   pdf.font("Futura")
