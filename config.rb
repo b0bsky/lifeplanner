@@ -8,10 +8,10 @@ DARK_COLOR   = '000000'
 FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura"
 FONTS = {
   'Futura' => {
-    normal: { file: FONT_PATH, font: 'FUTURAMEDIUM' },
-    italic: { file: FONT_PATH, font: 'Futura Medium Italic font' },
-    bold: { file: FONT_PATH, font: 'Futura Condensed Extra Bold' },
-    condensed: { file: FONT_PATH, font: 'future medium condensed bt' },
+    normal: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\FUTURAMEDIUM.ttf",
+    italic: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Heavy Italic font.ttf",
+    bold: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Condensed Extra Bold.otf",
+    condensed: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\futura medium condensed bt.ttf",
   }
 }
 PAGE_SIZE = 'LETTER' # Could also do 'A4'
