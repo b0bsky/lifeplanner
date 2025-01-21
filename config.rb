@@ -7,11 +7,11 @@ MEDIUM_COLOR = '888888'
 DARK_COLOR   = '000000'
 FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura"
 
-puts File.exist?("C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDIUM.ttf")
+puts File.exist?("C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDIUM")
 
 FONTS = {
   'Futura' => {
-    normal: "C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDIUM.ttf",
+    normal: "C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDIUM",
     italic: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Heavy Italic font.ttf",
     bold: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Condensed Extra Bold.otf",
     condensed: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\futura medium condensed bt.ttf",
