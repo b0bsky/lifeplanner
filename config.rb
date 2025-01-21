@@ -5,13 +5,13 @@ COLUMN_COUNT = 4
 LIGHT_COLOR = 'AAAAAA'
 MEDIUM_COLOR = '888888'
 DARK_COLOR   = '000000'
-OSX_FONT_PATH = "/System/Library/Fonts/Supplemental/Futura.ttc"
+FONT_PATH = "/System/Library/Fonts/Supplemental/Futura.ttc"
 FONTS = {
   'Futura' => {
-    normal: { file: OSX_FONT_PATH, font: 'Futura Medium' },
-    italic: { file: OSX_FONT_PATH, font: 'Futura Medium Italic' },
-    bold: { file: OSX_FONT_PATH, font: 'Futura Condensed ExtraBold' },
-    condensed: { file: OSX_FONT_PATH, font: 'Futura Condensed Medium' },
+    normal: { file: FONT_PATH, font: 'Futura Medium' },
+    italic: { file: FONT_PATH, font: 'Futura Medium Italic' },
+    bold: { file: FONT_PATH, font: 'Futura Condensed ExtraBold' },
+    condensed: { file: FONT_PATH, font: 'Futura Condensed Medium' },
   }
 }
 PAGE_SIZE = 'LETTER' # Could also do 'A4'
