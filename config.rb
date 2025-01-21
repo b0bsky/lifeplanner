@@ -8,7 +8,7 @@ DARK_COLOR   = '000000'
 FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura"
 FONTS = {
   'Futura' => {
-    normal: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\FUTURAMEDIUM.ttf",
+    normal: "C:\\Users\\reube\\OneDrive\\Desktop\\Random Fonts\\Futura\\FUTURAMEDIUM.ttf",
     italic: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Heavy Italic font.ttf",
     bold: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Condensed Extra Bold.otf",
     condensed: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\futura medium condensed bt.ttf",
