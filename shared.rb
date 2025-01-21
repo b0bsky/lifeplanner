@@ -7,7 +7,7 @@ require 'optparse'
 require_relative './config'
 
 def init_pdf
-  puts File.exist?("Fonts\Futura\Futura.TTF")
+  puts File.exist?("\Fonts\Futura\Futura.TTF")
 
   pdf = Prawn::Document.new(margin: RIGHT_PAGE_MARGINS, print_scaling: :none)
   pdf.font_families.update( "Futura" => {
