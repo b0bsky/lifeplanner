@@ -10,7 +10,7 @@ def init_pdf
   pdf = Prawn::Document.new(margin: RIGHT_PAGE_MARGINS, print_scaling: :none)
   pdf.font_families.update("Futura" => {
     :normal => Rails.root.join("C:\Users\reube\Fonts\Futura.TTF")
-  }
+  })
   #pdf.font(FONTS.keys.first)
   pdf.stroke_color MEDIUM_COLOR
   pdf.line_width(0.5)
