@@ -10,7 +10,7 @@ FONTS = {
   'Futura' => {
    normal: "Futura.TTF",
    italic: "Futura Heavy Italic font.ttf",
-   bold: "Futura Condensed Extra Bold.otf",
+   bold: "Futura Bold font.ttf",
    condensed: "futura medium condensed bt.ttf",
   }
  }
