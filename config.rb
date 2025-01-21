@@ -9,14 +9,14 @@ FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura"
 
 puts File.exist?("C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDIUM")
 
-FONTS = {
+# FONTS = {
   'Futura' => {
-    normal: "C:/User/reube/Fonts/Futura.TTF",
-    italic: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Heavy Italic font.ttf",
-    bold: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Condensed Extra Bold.otf",
-    condensed: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\futura medium condensed bt.ttf",
-  }
-}
+   # normal: "C:/User/reube/Fonts/Futura.TTF",
+  #  italic: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Heavy Italic font.ttf",
+  #  bold: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Condensed Extra Bold.otf",
+ #   condensed: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\futura medium condensed bt.ttf",
+ # }
+#}
 PAGE_SIZE = 'LETTER' # Could also do 'A4'
 # Order is top, right, bottom, left
 LEFT_PAGE_MARGINS = [36, 72, 36, 36]
