@@ -10,14 +10,8 @@ def init_pdf
   puts File.exist?("Futura.TTF")
 
   pdf = Prawn::Document.new(margin: RIGHT_PAGE_MARGINS, print_scaling: :none)
-  pdf.font_families.update( "Futura" => {
-    normal: "Futura.TTF",
-    italic: "Futura Heavy Italic font.ttf",
-    bold: "Futura Bold font.ttf",
-    condensed: "futura medium condensed bt.ttf"
-  })
-  # pdf.font(FONTS.keys.first)
-  pdf.font("Futura")
+  pdf.font_families.update(FONTS)
+  pdf.font(FONTS.keys.first)
   pdf.stroke_color MEDIUM_COLOR
   pdf.line_width(0.5)
   pdf
