@@ -6,14 +6,6 @@ require 'i18n'
 require 'optparse'
 require_relative './config'
 
- FONTS = {
-    "Futura" => {
-    :normal => "C:\Users\reube\Fonts\Futura\Futura.TTF",
-    italic: "C:\Users\reube\Fonts\Futura\Futura Heavy Italic font.ttf",
-    bold: "C:\Users\reube\Fonts\Futura\Futura Bold font.ttf",
-    condensed: "C:\Users\reube\Fonts\Futura\futura medium condensed bt.ttf"
-    }}
-
 def init_pdf
 
   pdf = Prawn::Document.new(margin: RIGHT_PAGE_MARGINS, print_scaling: :none)
