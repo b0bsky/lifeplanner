@@ -5,7 +5,7 @@ COLUMN_COUNT = 4
 LIGHT_COLOR = 'AAAAAA'
 MEDIUM_COLOR = '888888'
 DARK_COLOR   = '000000'
-FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\futura.zip"
+FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\futura.ttc"
 FONTS = {
   'Futura' => {
     normal: { file: FONT_PATH, font: 'FUTURAMEDIUM' },
