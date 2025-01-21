@@ -11,7 +11,7 @@ puts File.exist?("C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDI
 
 FONTS = {
   'Futura' => {
-    normal: "C:\Users\reube\Fonts\Futura.TTF",
+    normal: "C:/User/reube/Fonts/Futura.TTF",
     italic: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Heavy Italic font.ttf",
     bold: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\Futura Condensed Extra Bold.otf",
     condensed: "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura\futura medium condensed bt.ttf",
