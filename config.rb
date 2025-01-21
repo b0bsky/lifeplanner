@@ -8,7 +8,7 @@ DARK_COLOR   = '000000'
 
 FONTS = {
   'Futura' => {
-   #normal: "Futura.TTF",
+   normal: "Futura Bold font.TTF",
    #italic: "Futura Heavy Italic font.ttf",
    bold: "Futura Bold font.ttf",
    condensed: "futura medium condensed bt.ttf",
