@@ -5,13 +5,13 @@ COLUMN_COUNT = 4
 LIGHT_COLOR = 'AAAAAA'
 MEDIUM_COLOR = '888888'
 DARK_COLOR   = '000000'
-FONT_PATH = "/System/Library/Fonts/Supplemental/Futura.ttc"
+FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\futura.zip"
 FONTS = {
   'Futura' => {
-    normal: { file: FONT_PATH, font: 'Futura Medium' },
-    italic: { file: FONT_PATH, font: 'Futura Medium Italic' },
-    bold: { file: FONT_PATH, font: 'Futura Condensed ExtraBold' },
-    condensed: { file: FONT_PATH, font: 'Futura Condensed Medium' },
+    normal: { file: FONT_PATH, font: 'FUTURAMEDIUM' },
+    italic: { file: FONT_PATH, font: 'Futura Medium Italic font' },
+    bold: { file: FONT_PATH, font: 'Futura Condensed Extra Bold' },
+    condensed: { file: FONT_PATH, font: 'future medium condensed bt' },
   }
 }
 PAGE_SIZE = 'LETTER' # Could also do 'A4'
