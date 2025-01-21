@@ -6,6 +6,9 @@ LIGHT_COLOR = 'AAAAAA'
 MEDIUM_COLOR = '888888'
 DARK_COLOR   = '000000'
 FONT_PATH = "C:\Users\reube\OneDrive\Desktop\Random\Fonts\Futura"
+
+puts File.exist?("C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDIUM.ttf")
+
 FONTS = {
   'Futura' => {
     normal: "C:/Users/reube/OneDrive/Desktop/Random Fonts/Futura/FUTURAMEDIUM.ttf",
