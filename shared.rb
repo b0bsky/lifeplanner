@@ -14,7 +14,7 @@ def init_pdf
     bold: "C:\Users\reube\Fonts\Futura\Futura Bold font.ttf",
     condensed: "C:\Users\reube\Fonts\Futura\futura medium condensed bt.ttf"
   })
-  #pdf.font(FONTS.keys.first)
+  pdf.font(Futura.keys.first)
   pdf.stroke_color MEDIUM_COLOR
   pdf.line_width(0.5)
   pdf
